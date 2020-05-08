@@ -7,7 +7,7 @@
  		
         ***Instructions below; update all identified variables prior to transformation.***
         
-        Created by Heather P. Westerlund, 08 April 2020, Walden University, and licensed under a Creative Commons Attribution 4.0 International License (http://creativecommons.org/licenses/by/4.0/deed.en). Added Abstract field. Updated instruction examples for Walden. Updated for CrossRef 4.4.2 schema, including DOI field updates.
+        Created by Heather P. Westerlund, 08 April 2020, Walden University, and licensed under the GNU General Public License (http://www.gnu.org/licenses/). Added Abstract field. Updated instruction examples for Walden. Updated for CrossRef 4.4.2 schema, including DOI field updates.
 		
 		Derived from stylesheet created by Jeffrey M. Mortimore, 12 February 2016, Georgia Southern University, and licensed under a 
         Creative Commons Attribution 4.0 International License (http://creativecommons.org/licenses/by/4.0/deed.en). 
