@@ -27,9 +27,9 @@
         <!-- 2. For the selected issue, export the ‘document export’ version of the OAI-PMH XML from Digital Commons.
 		The base URL for the issue-level report is:
 	
-			https://scholarworks.waldenu.edu/do/oai/?verb=ListRecords&metadataPrefix=document-export&set=publication:[collection label]/vol[#]/iss[#]/
+			https://[your-custom-domain]/do/oai/?verb=ListRecords&metadataPrefix=document-export&set=publication:[collection label]/vol[#]/iss[#]/
 	
-		Here is an exmple for JSWGC vol. 1, iss. 1:
+		Here is an exmple for Walden University's JSWGC vol. 1, iss. 1:
 	
 			https://scholarworks.waldenu.edu/do/oai/?verb=ListRecords&metadataPrefix=document-export&set=publication:jswgc/vol1/iss1/ 		-->
 
@@ -46,9 +46,9 @@
 
         <!-- 4. Update the depositor variables if needed. -->
 
-        <xsl:variable name="depositor_name">Mackenzie Salisbury</xsl:variable>
-        <xsl:variable name="depositor_email_address">scholarworks@mail.waldenu.edu</xsl:variable>
-        <xsl:variable name="registrant_name">Walden University</xsl:variable>
+        <xsl:variable name="depositor_name">Depositor name</xsl:variable>
+        <xsl:variable name="depositor_email_address">Depositor email</xsl:variable>
+        <xsl:variable name="registrant_name">Institution</xsl:variable>
 
         <!-- 5. Update the journal issn variable. -->
 
