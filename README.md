@@ -1,5 +1,5 @@
 # DOI-registration-Processing
- Crosswalk Digital Commons metadata to Crossref for DOI registration by issue.
+ Crosswalk Digital Commons metadata to Crossref for DOI registration.
 
 ## Configuration
 
