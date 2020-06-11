@@ -19,12 +19,12 @@ If the depositor info will generally stay the same, update the depositor variabl
    Here is an example for Walden University's JSWGC vol. 1, iss. 1:
    * https://scholarworks.waldenu.edu/do/oai/?verb=ListRecords&metadataPrefix=document-export&set=publication:jswgc/vol1/iss1/
 
-1. In the Digital Commons XML, remove the following attributes from the <OAI-PMH> opening element in the exported XML prior to transformation. The transformation will fail if these attributes are not removed:
+1. Run the "DC-XML-prep.bat" script. This will remove two namespace attributes below (the transformation will fail if these aren't removed) and rename the updated file to "DC-ready-to-transform.xml":
 	
        xmlns="http://www.openarchives.org/OAI/2.0/"
        xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd"
 	
-   Once edited, the <OAI-PMH> opening element should appear as follows:
+   Once edited, the <OAI-PMH> opening element will appear as follows:
 
        <OAI-PMH xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 
@@ -38,6 +38,6 @@ If the depositor info will generally stay the same, update the depositor variabl
 
        <xsl:variable name="journal_electronic_issn">XXXX-XXXX</xsl:variable>
 
-1. Transform the XML using a XSLT v2.0 transformer, such as Oxygen XML Editor using the Saxon HE, EE, or PE processor
+1. Transform the "DC-ready-to-transform.xml" file using a XSLT v2.0 transformer, such as Oxygen XML Editor using the Saxon HE, EE, or PE processor
 
 1. Save the outputed XML file and upload to CrossRef at https://doi.crossref.org
