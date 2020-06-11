@@ -24,7 +24,7 @@ If the depositor info will generally stay the same, update the depositor variabl
        xmlns="http://www.openarchives.org/OAI/2.0/"
        xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd"
 	
-   Once edited, the <OAI-PMH> opening element will appear as follows:
+   After the script runs the <OAI-PMH> opening element will appear as follows:
 
        <OAI-PMH xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 
