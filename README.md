@@ -28,7 +28,7 @@ If the depositor info will generally stay the same, update the depositor variabl
 
        <OAI-PMH xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 
-1. Update the depositor variables in the XSLT if needed:
+1. Update the depositor variables in the XSLT if needed (or alternatively, after the transformation below):
 
        <xsl:variable name="depositor_name">Depositor name</xsl:variable>
        <xsl:variable name="depositor_email_address">Depositor email</xsl:variable>
